@@ -1,0 +1,34 @@
+Package: bmetapred
+Title: Bayesian Meta-Prediction in the Presence of Prediction Error
+Version: 0.1.0
+Authors@R: c(
+    person("Jorge", "Piqueras Marqués", , "jorge.piqueras.m@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6812-2106")),
+    person("Anabel", "Forte Deltell", , "anabel.forte@uv.es", role = "aut",
+           comment = c(ORCID = "0000-0001-9534-1817")),
+    person("Joaquin", "Martinez Minaya", , "jmarmin@eio.upv.es", role = "ctb",
+           comment = c(ORCID = "0000-0002-1016-8734"))
+  )
+Description: Fits pseudo-Bayesian Model Averaging (pBMA) and Bayesian Stacking ensembles of linear
+    meta-models while explicitly accounting for the prediction errors of the individual models,
+    building on the Bayesian Stacking of predictive distributions framework of Yao et al. (2018) <doi:10.1214/17-BA1091>.
+    When native uncertainty estimates are unavailable, it provides tools to estimate heteroscedastic
+    errors via Local Polynomial Regression (LOESS). The meta-model space is explored using exhaustive
+    search, a Markov Chain Monte Carlo Model Composition (MC3) algorithm following Madigan and
+    Raftery (1994) <doi:10.1080/01621459.1994.10476894> when pBMA is selected, or a tabu-guided heuristic search with parallel tempering when bayesian stacking is selected, all powered by 'brms' (Bürkner, 2017
+    <doi:10.18637/jss.v080.i01>).
+License: GPL (>= 3)
+Encoding: UTF-8
+RoxygenNote: 8.0.0
+Imports: brms, future, future.apply, loo, stats, utils
+NeedsCompilation: no
+Packaged: 2026-10-19 12:51:46 UTC; General
+Author: Jorge Piqueras Marqués [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-6812-2106>),
+  Anabel Forte Deltell [aut] (ORCID:
+    <https://orcid.org/0000-0001-9534-1817>),
+  Joaquin Martinez Minaya [ctb] (ORCID:
+    <https://orcid.org/0000-0002-1016-8734>)
+Maintainer: Jorge Piqueras Marqués <jorge.piqueras.m@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-10-29 11:40:07 UTC

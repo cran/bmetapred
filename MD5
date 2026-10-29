@@ -1,0 +1,13 @@
+a002ef55f907b7b0f185ca8b04739aff *DESCRIPTION
+46aa6def2777059a7dc3c5f7dcac9b25 *NAMESPACE
+6830dfa8b0dae3bc19c11a2f40a88c4c *NEWS.md
+baf000c6f740102e4e3fda655be88da8 *R/fit_bmetapred.R
+79b74626c67b3527b9c9e442d8b4dfd7 *R/methods.R
+29d7fbbb87944b98628bd1002d65c3ec *R/utils.R
+4488c72de3c6089203dc89ab0ae35b10 *README.md
+b252da0b362b9a39eedf9164e3d75508 *man/fit_LOESS.Rd
+ba0fb91a2e8ccddb2558cd0cd885b41c *man/fit_bmetapred.Rd
+9debce1f62992ae04cfe69b1e60ab497 *man/get_pip_bmetapred.Rd
+1e3c7638ae62fd0ef7cd841bddfd6c6e *man/predict.bmetapred_loess.Rd
+4b4c49e0678361f6b2e35baa2739bdd7 *man/predict.bmetapred_model.Rd
+a3baadf61b1fdfde6045b3d2a18546d1 *man/summary.bmetapred_model.Rd
